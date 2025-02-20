@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/029/095/large_2x/sperm-and-egg-cell-natural-fertilization-3d-illustration-on-blue-background-photo.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 3px solid #fff;
+}
+
+main {
+    width: 60%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    width: 45%;
+    font-weight: 600;
+    color: #444;
+}
+
+input[type="number"], input[type="radio"], input[type="checkbox"] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-top: 5px;
+}
+
+.form-group .radio-label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-row .form-group {
+    width: 48%;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
